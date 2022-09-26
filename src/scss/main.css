@@ -1,0 +1,103 @@
+body, #root {
+  background-color: #34495e;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 80vh;
+  margin: 0;
+  overflow: hidden;
+}
+
+.game-container {
+  padding: 20px 30px;
+  position: relative;
+  margin: auto;
+  height: 350px;
+  width: 500px;
+}
+
+main {
+  margin-left: 1em;
+  text-align: center;
+}
+
+.keyboardLayout {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 55vw;
+  height: 180px;
+  margin: 0 auto;
+  gap: 10px;
+}
+
+h1 {
+  font-size: 4em;
+  margin-bottom: none;
+  padding-bottom: none;
+}
+
+.letter {
+  background-color: darkgrey;
+  padding: 0.5em;
+  align-self: flex-start;
+  margin: 1px;
+}
+.letter:hover {
+  background-color: lightgrey;
+}
+
+.randomWord {
+  font-size: 2.3em;
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  letter-spacing: 1px;
+}
+
+button {
+  background: black;
+  color: whitesmoke;
+  border-radius: 5px;
+  margin: 1em;
+  font-size: 1.5em;
+  border: none;
+  box-shadow: 1px 1px 1px 1px lightgrey;
+}
+button:hover {
+  background: rgb(82, 82, 82);
+}
+
+.btn--start {
+  font-size: 1.5em;
+  border-radius: 20px;
+  margin: 20px 0;
+  height: 3em;
+  min-width: 7em;
+  align-self: center;
+  margin-left: 1em;
+}
+
+.randomWord {
+  font-size: 3em;
+  letter-spacing: 4px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.figure-container {
+  fill: transparent;
+  stroke: #fff;
+  stroke-width: 4px;
+  stroke-linecap: round;
+  margin-top: 3em;
+}
+
+.figure-part {
+  display: none;
+}/*# sourceMappingURL=main.css.map */
