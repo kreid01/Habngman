@@ -8,13 +8,14 @@ body, #root {
     height: 80vh;
     margin: 0;
     overflow: hidden;
+    flex-wrap: wrap;
   }
   .game-container {
     padding: 20px 30px;
     position: relative;
     margin: auto;
     height: 350px;
-    width: 500px;
+    width: 50vw;
   }
 main {
     margin-left: 1em;
@@ -24,10 +25,11 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 55vw;
+    width: 60%;
     height: 180px;
     margin: 0 auto;
     gap: 10px;
+    margin-bottom: 3em;
 }
 h1 {
     font-size :4em;
