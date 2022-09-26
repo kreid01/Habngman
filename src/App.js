@@ -61,8 +61,7 @@ setCharArr(newArr)
 }
 
 React.useEffect(() => {
-  if(randomWordArr.lenght > 1) {
-
+  if(randomWordArr.length > 1) {
   if((!randomWordArr.includes('_'))){
     setHasWon(true)
     }
