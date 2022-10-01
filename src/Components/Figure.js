@@ -4,6 +4,7 @@ import React from 'react'
 function Figure(props) {
   const errors = props.wrongLetters
 console.log(props.wrongLetters)
+
   return (
     <svg height="250" width="200" className="figure-container">
       {/* <!-- Rod --> */}

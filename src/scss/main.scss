@@ -11,11 +11,11 @@ body, #root {
     flex-wrap: wrap;
   }
   .game-container {
-    padding: 20px 30px;
+    padding: 20px 50px;
     position: relative;
     margin: auto;
     height: 350px;
-    width: 50vw;
+    width: 60vw;
   }
 main {
     margin-left: 1em;
@@ -72,6 +72,7 @@ button {
     min-width:7em;
     align-self: center;
     margin-left: 1em;
+    scale: 0.7;
 }
 .randomWord {
     font-size: 3em;
@@ -93,4 +94,20 @@ header {
   
   .figure-part {
     display: none;
+  }
+  @media (max-width: 768px) {
+    .keyboardLayout {
+        width: 90%;
+    }
+    body {
+        font-size: 0.8em;
+    }
+    .btn--start {
+        scale: 0.7
+    }
+  }
+  @media (max-width: 1000px) {
+    .keyboardLayout {
+        width: 80%;
+    }
   }
