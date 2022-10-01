@@ -18,8 +18,7 @@ const styles = {
 }
     return (
         <div style={styles} className='keyboardLayout'>
-             {keyboard}
-             {(props.hasWon)? <h1>You win</h1>: <div></div>}    
+             {keyboard}  
         </div>
     )
 }
